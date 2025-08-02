@@ -1,3 +1,23 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root {
+  --color-bg: 250 250 250;
+  --color-card: 255 255 255;
+  --color-card-border: 229 229 229;
+  --color-accent: 249 115 22;
+  --color-accent-hover: 234 88 12;
+  --color-secondary-text: 113 113 122;
+  --color-text: 39 39 42;
+}
+
+.dark {
+  --color-bg: 28 27 30;
+  --color-card: 46 45 49;
+  --color-card-border: 60 59 64;
+  --color-accent: 249 115 22;
+  --color-accent-hover: 250 204 21;
+  --color-secondary-text: 163 163 163;
+  --color-text: 255 255 255;
+}

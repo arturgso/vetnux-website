@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import { onMounted } from "vue";
+import Features from "./components/Features/Features.vue";
 import Header from "./components/Header.vue";
 import Hero from "./components/Hero.vue";
 
@@ -13,10 +14,11 @@ onMounted(() => {
 </script>
 
 <template>
-  <div class="bg-bg h-screen font-lato">
+  <div class="bg-bg h-full font-lato">
     <Header />
-    <div class="ssm:mx-[5%] lg:mx-[10%]">
+    <div class="ssm:mx-[5%] lg:mx-[10%] flex flex-col items-center gap-16">
       <Hero />
+      <Features />
     </div>
   </div>
 </template>

@@ -1,6 +1,6 @@
 <template>
     <div
-        class="bg-card h-44 p-4 rounded-xl border-2 border-card-border hover:border-accent transition-colors duration-150 ease-linear">
+        class="flex flex-col justify-evenly bg-card h-44 p-4 rounded-xl border-2 border-card-border hover:border-accent hover:drop-shadow-md transition-colors duration-150 ease-linear">
         <div class="flex items-center gap-3 mb-3">
             <div class="bg-bg p-2 rounded-md shadow-md">
                 <component :is="props.icon" :class="['w-7 h-7', iconColor]" />

@@ -1,7 +1,7 @@
 <template>
   <div class="flex items-center gap-2">
-    <component :is="props.icon" class="w-4 h-4  text-accent" />
-    <span class="text-lg text-secondary-text">{{ props.text }}</span>
+    <component :is="props.icon" class="w-4 h-4 lg:w-5 lg:h-5 text-accent" />
+    <span class="text-lg lg:text-sm text-secondary-text">{{ props.text }}</span>
   </div>
 </template>
 

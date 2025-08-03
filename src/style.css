@@ -10,6 +10,7 @@
   --color-accent-hover: 234 88 12;
   --color-secondary-text: 113 113 122;
   --color-text: 39 39 42;
+  --color-section: 248 247 241;
 }
 
 .dark {
@@ -20,4 +21,5 @@
   --color-accent-hover: 250 204 21;
   --color-secondary-text: 163 163 163;
   --color-text: 255 255 255;
+  --color-section: 30 33 30;
 }

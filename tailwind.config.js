@@ -15,6 +15,7 @@ export default {
         'accent-hover': 'rgb(var(--color-accent-hover) / <alpha-value>)',
         'secondary-text': 'rgb(var(--color-secondary-text) / <alpha-value>)',
         text: 'rgb(var(--color-text) / <alpha-value>)',
+        section: 'rgb(var(--color-section) / <alpha-value>)',
       }
     },
     screens: {

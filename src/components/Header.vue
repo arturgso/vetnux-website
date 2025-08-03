@@ -29,7 +29,7 @@ onMounted(() => {
 
 <template>
   <Layout>
-    <div class="py-4 flex items-center ssm:justify-center md:justify-between">
+    <div class="py-4 flex items-center justify-between">
       <div class="flex items-center gap-3">
         <div class="h-10 w-10 rounded-full flex items-center justify-center"
           style="background: linear-gradient(45deg, #facc15, #fb923c)">

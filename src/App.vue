@@ -20,7 +20,7 @@ import Newsletter from "./components/Newsletter.vue";
         </Layout>
       </div>
       <div class="flex items-center justify-center text-secondary-text">
-        <span>Desenvolvido por <a href="http://valkyriesystems.com.br" target="_blank">Valkyrie Systems</a></span>
+        <span>Desenvolvido por <a href="https://github.com/arturgso" target="_blank">Artur Oliveira</a></span>
       </div>
     </div>
   </div>
